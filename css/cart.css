@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    /* padding: 1em; */
+    background-color: #fff;
+}
+.main{
+    /* margin: 20px; */
+    width: 100%;
+    display: flex;
+    /* gap: 4rem; */
+}
+.sideBar{
+    width: 100px;
+    height: 600px;
+    background: #0C0B0B;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 6rem;
+    margin-top: 2rem;
+    box-shadow: 30px 25px 50px rgb(174, 174, 174);
+}
+.cartItems{
+    width: 438px;
+    height: 438px;
+    background: #F1D5BB;
+    border-radius: 3px;
+    margin-top: .5rem;
+    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.rec{
+    width: 110px;
+    height: 4px;
+    background: #F1D5BB;
+}
+.menuIcon{
+    width: 100px;
+    height: 100px;
+    background: #F1D5BB;
+}
+.menuIcon img{
+    margin-left: 50%;
+    margin-top: 50%;
+    transform: translate(-50%, -50%);
+}
+.cartSection{
+    margin-left: 5rem;
+    margin-top: 1rem;
+    position: relative;
+}
+.sec{
+    display: flex;
+    gap: 2rem;
+}
+.cartSection h1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 63px;
+}
+.cartTotal{
+    display: flex;
+    flex-direction: column;
+    margin-top: .5rem;
+}
+.price{
+    width: 343px;
+    height: 219px;
+    background: #F1D5BB;
+    border-radius: 3px 3px 0 0;
+}
+.promo{
+    width: 343px;
+    height: 219px;
+    background: #FFFFFF;
+    border: 1px solid #F1D5BB;
+    border-radius: 0 0 3px 3px;
+    /* padding: 1.5em; */
+}
+.btn1{
+    width: 265px;
+    height: 58px;
+    background: #000000;
+    color: #fff;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    margin-top: .8em;
+    cursor: pointer;
+}
+.total{
+    display: flex;
+    gap: 3em;
+    margin-left: 2.5em;
+    margin-top: .7em;
+}
+.total p, .total span{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 38px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.price h1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 50px;
+    color: #000000;
+    margin-left: 1.2em;
+    margin-top: 1em;
+}
+.click1{
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2.5em;
+}
+input{
+    width: 265px;
+    height: 68px;
+    background: #FFFFFF;
+    border: 1px solid #F1D5BB;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+}
+label{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 50px;
+    color: #000000;
+}
+.btn2{
+    width: 106px;
+    height: 48px;
+    background: #000000;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-top: 1.5em;
+    cursor: pointer;
+}
+.footer{
+    bottom: 0.5em;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    color: #000000;
+    position: absolute;
+}
+.cartImg{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+.ma{
+    display: flex;
+    gap: 10px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 31px;
+    color: #000000;
+    align-items: center;
+    width: 65%;
+}
+.ma span{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+
+}
+.oprt p{
+    width: 26px;
+    height: 24px;
+    background: #FFFFFF;
+    text-align: center;
+}
+.cart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.oprt{
+    display: flex;
+    gap: 3px;
+}
